@@ -5,7 +5,7 @@ public class DatabaseHandler {
 	}
 	
 	private void Connect(){
-		
+	//This is a test comment
 		
 	}
 }
