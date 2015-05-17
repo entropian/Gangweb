@@ -14,6 +14,21 @@ public class Person {
 	public String	hairColor = null;
 	public String 	eyeColor = null;
 	
+	@Override
+	public String toString()
+	{
+		return 	"ID : " + id + 
+				"; firstName : " + firstName + 
+				"; middleName : " + middleName + 
+				"; lastName : " + lastName + 
+				"; age : " + age + 
+				"; weight : " + weight + 
+				"; height : " + height + 
+				"; gender : " + gender + 
+				"; race : " + race +
+				"; hairColor : " + hairColor + 
+				"; eyeColor : " + eyeColor;
+	}
 	/**
 	 * Creates an instance of Person.
 	 */
